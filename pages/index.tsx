@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import AboutSection from './components/AboutSection'
+import Conclusion from './components/Conclusion'
 import ConsultExperts from './components/ConsultExperts'
 import DifferentSection from './components/DifferentSection'
 import Header from './components/Header'
@@ -35,6 +36,9 @@ const Home: NextPage = () => {
         <ConsultExperts />
         {/* period box */}
         <PeriodBox />
+        {/* conclusion */}
+        <Conclusion />
+        
       </main>
     </div>
   )
