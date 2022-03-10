@@ -1,19 +1,28 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import AboutSection from './components/AboutSection'
+import DifferentSection from './components/DifferentSection'
 import Header from './components/Header'
+import LiberateSection from './components/LiberateSection'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-slate-500">
+    <div className="flex min-h-screen items-center justify-center bg-[#E5E5E5]">
       <Head>
         <title>dyeus_webD</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="w-[375px]">
-        {/* header */}
-        <Header />
+      <main className="h-auto w-[375px]">
+        <div className="bg h-auto">
+          {/* header */}
+          <Header />
+          {/* about section */}
+          <AboutSection />
+        </div>
+        {/* What makes us different? section */}
+        <DifferentSection />
+        {/* liberate section */}
+        <LiberateSection />
       </main>
     </div>
   )
