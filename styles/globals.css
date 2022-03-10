@@ -17,6 +17,32 @@
     rgba(246, 240, 196, 0) 100%
   );
 }
+.bg-liberate {
+  background: linear-gradient(
+    297.28deg,
+    #f66e6e 67.01%,
+    rgba(246, 110, 110, 0) 123.71%
+  );
+}
+.bg-mood {
+  background: linear-gradient(
+    288.62deg,
+    #6e8cf6 42.36%,
+    rgba(110, 213, 246, 0.93) 115.74%
+  );
+}
+.bg-period {
+  background: linear-gradient(
+    297.28deg,
+    #f66e6e 67.01%,
+    rgba(246, 110, 110, 0) 123.71%
+  );
+}
+.bg-consult{
+  background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+
+}
+
 .bg-conclusion {
   background: linear-gradient(180deg, #fff6fb 0%, #e7f6fc 100%);
 }

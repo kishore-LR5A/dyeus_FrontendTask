@@ -7,11 +7,11 @@ interface Props {
 }
 //
 function GradientButton(props: Props) {
-  const buttonStyles = `rounded-full bg-gradient-to-tl from-[${props.from}] to-[${props.to}] py-[18px] px-[39px] text-[19.86px]`
+  // const buttonStyles = `rounded-full bg-gradient-to-tl from-[${props.from}] to-[${props.to}] py-[18px] px-[39px] text-[19.86px]`
   return (
     <button
       type="button"
-      className={buttonStyles}
+      className={`rounded-full bg-gradient-to-tl from-[#${props.from}] to-[#${props.to}] py-[18px] px-[39px] text-[19.86px]`}
     >
       {props.text}
     </button>
@@ -19,3 +19,4 @@ function GradientButton(props: Props) {
 }
 
 export default GradientButton
+

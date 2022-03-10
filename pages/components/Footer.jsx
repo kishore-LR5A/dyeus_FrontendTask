@@ -21,15 +21,15 @@ function Footer() {
         )}
       </div>
       <hr className="mb-[17px] border-t-[2px] border-[#E3F4FF]" />
-      <div className='space-y-[6px]'>
+      <div className="space-y-[6px]">
         <p className="text-[8.95px] text-white">Subscribe to our Newsletter</p>
         <div className="flex space-x-[7px]">
-          <div className="bg-gray-400 rounded-sm border-[1px] border-[#E7F6FC] pt-[3px] pb-[2px] pl-[11px] pr-[108px] text-[12px]">
+          <div className="rounded-sm border-[1px] border-[#E7F6FC] bg-gray-400 pt-[3px] pb-[2px] pl-[11px] pr-[108px] text-[12px]">
             Enter your email..
           </div>
-          <div className='flex items-center justify-center py-[4.47px] px-[8px] bg-[#D6F4FB] rounded-full'>
+          <div className="flex items-center justify-center space-x-1 rounded-full bg-[#D6F4FB] py-[4.47px] px-[8px] text-[#1B1B50]">
             <img src="footer/mail.svg" alt="" />
-            <p className='text-[8.95px]  '>Activate</p>
+            <p className="text-[8.95px] ">Activate</p>
           </div>
         </div>
       </div>

@@ -14,12 +14,18 @@ function PeriodSection() {
           your cycle effortless and helps you stay on top of your monthly data.
         </h3>
         <div className="flex items-center justify-center">
-          <GradientButton
+          {/* <GradientButton
             text="Track you period on the app"
             from="#F66E6E"
             to="#F66E6E"
             key={3}
-          />
+          /> */}
+          <button
+              type="button"
+              className="rounded-full bg-period py-[18px] px-[39px] text-[19.86px]"
+            >
+              Track you period on the app
+            </button>
         </div>
         <img className="mt-[47px]" src="period/menstrual-calender.png" alt="" />
       </div>

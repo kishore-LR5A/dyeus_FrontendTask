@@ -16,7 +16,7 @@ function DifferentSection() {
           here to flip the script on that narrative because you deserve the best{' '}
         </p>
         <p>We collaborate with researchers and doctors to </p>
-        <ul className='list-disc'>
+        <ul className='list-disc px-4'>
           <li>
             Help you get granular about your health and self-care with
             personalized insights, and

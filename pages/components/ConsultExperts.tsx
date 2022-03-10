@@ -14,12 +14,18 @@ function ConsultExperts() {
           connect you to someone who is the right-fit for you.
         </h3>
         <div className="flex items-center justify-center text-black">
-          <GradientButton
+          {/* <GradientButton
             text="Get a consultation"
             from="#F66E6E"
             to="#F66E6E"
             key={3}
-          />
+          /> */}
+          <button
+              type="button"
+              className="rounded-full bg-consult py-[18px] px-[39px] text-[19.86px]"
+            >
+              Get a consultation
+            </button>
         </div>
         <img className="mt-[47px]" src="consultExperts/doctor.png" alt="" />
       </div>

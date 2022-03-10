@@ -14,12 +14,17 @@ function MoodSection() {
           health) so you can take better care of yourself every day.
         </h3>
         <div className="flex items-center justify-center">
-          <GradientButton
+          {/* <GradientButton
             text="Track you mood on the app"
             from="#6E8CF6"
             to="#6ED5F6"
-            key={2}
-          />
+          /> */}
+          <button
+              type="button"
+              className="rounded-full bg-mood py-[18px] px-[39px] text-[19.86px]"
+            >
+              Track you mood on the app
+            </button>
         </div>
         <div className="mx-[11px] mt-[33px] pb-[37px] grid grid-cols-2 gap-[25px]">
           <img src="mood/w1.png" alt="" />
