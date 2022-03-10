@@ -17,3 +17,6 @@
     rgba(246, 240, 196, 0) 100%
   );
 }
+.bg-conclusion {
+  background: linear-gradient(180deg, #fff6fb 0%, #e7f6fc 100%);
+}

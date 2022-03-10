@@ -9,6 +9,7 @@ import LiberateSection from './components/LiberateSection'
 import MoodSection from './components/MoodSection'
 import PeriodBox from './components/PeriodBox'
 import PeriodSection from './components/PeriodSection'
+import Footer from './components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -38,7 +39,8 @@ const Home: NextPage = () => {
         <PeriodBox />
         {/* conclusion */}
         <Conclusion />
-        
+        {/* footer */}
+        <Footer />
       </main>
     </div>
   )
