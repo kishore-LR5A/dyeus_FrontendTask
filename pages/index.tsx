@@ -1,9 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import AboutSection from './components/AboutSection'
+import ConsultExperts from './components/ConsultExperts'
 import DifferentSection from './components/DifferentSection'
 import Header from './components/Header'
 import LiberateSection from './components/LiberateSection'
+import MoodSection from './components/MoodSection'
+import PeriodBox from './components/PeriodBox'
+import PeriodSection from './components/PeriodSection'
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +27,14 @@ const Home: NextPage = () => {
         <DifferentSection />
         {/* liberate section */}
         <LiberateSection />
+        {/* mood section */}
+        <MoodSection />
+        {/* period section */}
+        <PeriodSection />
+        {/* consult experts section */}
+        <ConsultExperts />
+        {/* period box */}
+        <PeriodBox />
       </main>
     </div>
   )

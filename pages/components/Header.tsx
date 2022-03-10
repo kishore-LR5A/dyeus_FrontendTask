@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <div className="flex flex-col rounded-b-xl bg-white py-2 drop-shadow-lg">
+      <div className="flex flex-col rounded-b-xl bg-white py-2 drop-shadow-md">
         {/* upper section */}
         <div className="relative flex h-[40px] items-center justify-end pr-[16.5px]">
           <h3 className="absolute left-[31px] top-[14.09px] bottom-[7.91px] text-[15px]">

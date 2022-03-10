@@ -1,4 +1,5 @@
 import React from 'react'
+import GradientButton from './GradientButton'
 
 function LiberateSection() {
   return (
@@ -19,12 +20,12 @@ function LiberateSection() {
       <div className="absolute bottom-[0px]">
         <div className="relative flex items-center justify-center ">
           <div className="absolute top-[51px] ">
-            <button
-              type="button"
-              className="rounded-full bg-gradient-to-tl from-[#F66E6E] to-[#f66e6e00] py-[18px] px-[39px] text-[19.86px]"
-            >
-              Upgrade your self-care
-            </button>
+            <GradientButton
+              text="Upgrade your self-care"
+              from="#F66E6E"
+              to="#f66e6e00"
+              key={1}
+            />
             <h2 className="mt-[21px] flex items-center justify-center text-[22px]">
               #NoNasties, we promise!
             </h2>
